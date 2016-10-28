@@ -23,7 +23,8 @@ Package.on_use(function (api) {
     "lib/storage-policy.js",
     "services/aws-s3.js",
     "services/google-cloud.js",
-    "services/rackspace.js"
+    "services/rackspace.js",
+    "lib/upload.js"
   ], "server");
 
   api.export("Slingshot");
